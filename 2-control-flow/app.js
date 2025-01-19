@@ -1,7 +1,7 @@
 /**
  * Learn how to use keywords such as if, else if, switch, a d ternary syntax
  * to control the flow of a program in Javascript
- * In another word, rendering some statement/ expressioj
+ * In another word, rendering some statement/ expression
  * based on single or muliple conditions
  */
 
