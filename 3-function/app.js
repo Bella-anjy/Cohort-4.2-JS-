@@ -1,7 +1,7 @@
 /**
  * Function is a reusable piece of code for performing specific tasks.
  * Fuctions javascript function syntax,
- * paswing data to functions,
+ * passing data to functions,
  * the return keyword,
  * ES6 arrow functions, and
  * concise body syntax.

@@ -2,7 +2,7 @@
  * Array
  * Array = collection of list of items
  * denoted with square bracket [].
- * each itemin anarray is seperated with comma.
+ * each item in anarray is seperated with comma.
  * withsame data types or different data types
  * Each time inside of an arrayisat numbered ppsistion, or index,startinh at 0.
  */
