@@ -1,6 +1,6 @@
 /**
  * Array
- * Array = collection of list if items
+ * Array = collection of list of items
  * denoted with square bracket [].
  * each itemin anarray is seperated with comma.
  * withsame data types or different data types
