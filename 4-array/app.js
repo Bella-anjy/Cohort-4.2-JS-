@@ -226,16 +226,15 @@ let joinString2 = splitString.join();
 console.log("joinString1", joinString1);
 console.log("joinString2", joinString2);
 
-
 /**
  * .reverse()
  * Reverses the elements in an array in place.
  * This method mutates the array and returns a reference to the same array
-  */
+ */
 
 let bestSnack = ["M", "a", "c", "S", "a", "l", "a", "d"];
 let reversedResult = bestSnack.reverse();
-console.log('reversedResult', reversedResult)
+console.log("reversedResult", reversedResult);
 
 /**
  * .includes()
@@ -247,10 +246,10 @@ console.log('reversedResult', reversedResult)
  */
 
 let gadget = ["Laptop", "Phone", "Tablet", "Smartwatch"];
-let checkIfLaptopExist = gadget.includes("Laptop", 0)
-let checkIfIpadExist = gadget.includes("Ipad", 0) 
-console.log('checkIfLaptopExist ==>', checkIfLaptopExist)
-console.log('checkIfIpadExist ==>', checkIfIpadExist)
+let checkIfLaptopExist = gadget.includes("Laptop", 0);
+let checkIfIpadExist = gadget.includes("Ipad", 0);
+console.log("checkIfLaptopExist ==>", checkIfLaptopExist);
+console.log("checkIfIpadExist ==>", checkIfIpadExist);
 
 /**
  * .splice()
@@ -263,13 +262,12 @@ console.log('checkIfIpadExist ==>', checkIfIpadExist)
  * @returns - An array containing the elements that were deleted.
  */
 
-let removeSomeGadget = gadget.splice(0, 3)
-console.log('removeSomeGadget', removeSomeGadget)
-
+let removeSomeGadget = gadget.splice(0, 3);
+console.log("removeSomeGadget", removeSomeGadget);
 
 /**
  * .sort()
- * Sorts an array in place. This method mutates the array and 
+ * Sorts an array in place. This method mutates the array and
  * returns a reference to the same array.
  * @param compareFn - Fubction used to determine the order of the elements.
  * it is expected to return a negative value if first argument is less than the second,
@@ -277,37 +275,37 @@ console.log('removeSomeGadget', removeSomeGadget)
  * if omitted, the elements are sorted in ascending, ASCII character order.
  */
 
-let favEvenNums = [4, 8, 10, 12, 2] // in ascending order
+let favEvenNums = [4, 8, 10, 12, 2]; // in ascending order
 let favOddNums = [9, 3, 1, 5, 7, 11]; // in descending order
-let sortedEvenNums = favEvenNums.sort((a, b) => a-b )
-let sortedEvenNums2 = favOddNums.sort((a, b) => b - a)
-console.log('sortedEvenNums', sortedEvenNums)
+let sortedEvenNums = favEvenNums.sort((a, b) => a - b);
+let sortedEvenNums2 = favOddNums.sort((a, b) => b - a);
+console.log("sortedEvenNums", sortedEvenNums);
 console.log("sortedEvenNums2", sortedEvenNums2);
 
 /**
  * Use array methos to manipulate a defind arrays
-*/
+ */
 
 //Reverse
 let myBrand = ["B", "E", "L", "U", "X", "I"];
-let reversedresult = myBrand.reverse()
-console.log('reversedResult', reversedResult)
+let reversedresult = myBrand.reverse();
+console.log("reversedResult", reversedResult);
 
 // includes
-let myFavoriteBrand = ["Beluxi", "Gucci", "Fendi", "Fermes"]
-let checkIfFermesExist = myFavoriteBrand.includes("Fermes", 0)
-let checkIfLouisVuittonExist = myFavoriteBrand.includes("Loius Vuitton", 0)
-console.log('checkIfFermesExist ==>', checkIfFermesExist)
-console.log('checkIfLouisVuittonExist ==>', checkIfLouisVuittonExist)
+let myFavoriteBrand = ["Beluxi", "Gucci", "Fendi", "Fermes"];
+let checkIfFermesExist = myFavoriteBrand.includes("Fermes", 0);
+let checkIfLouisVuittonExist = myFavoriteBrand.includes("Loius Vuitton", 0);
+console.log("checkIfFermesExist ==>", checkIfFermesExist);
+console.log("checkIfLouisVuittonExist ==>", checkIfLouisVuittonExist);
 
 // splice
-let removeSomeBrand = myFavoriteBrand.splice(0,4)
-console.log('removeSomeBrand', removeSomeBrand)
+let removeSomeBrand = myFavoriteBrand.splice(0, 4);
+console.log("removeSomeBrand", removeSomeBrand);
 
 // sort
-let myBdayYear = [2, 0, 0, 8]
-let sortedMyBdayYear = myBdayYear.sort((a, b) => a - b)
-console.log('sortedMyBdayYear ', sortedMyBdayYear )
+let myBdayYear = [2, 0, 0, 8];
+let sortedMyBdayYear = myBdayYear.sort((a, b) => a - b);
+console.log("sortedMyBdayYear ", sortedMyBdayYear);
 
 /**
  * Nested Array
@@ -325,11 +323,14 @@ const favoriteDoubleNumber = [
   [2, 3],
   [3, 4],
 ];
-let getFirstElementOfIndexOneArray = favoriteDoubleNumber[0][0] // 
-let getSecondElementOfIndexTwoArray = favoriteDoubleNumber[1][1] // 
-let getFirstElementOfIndexThreeArray = favoriteDoubleNumber[2][0] // 
-let getSecondElementOfIndexFourArray = favoriteDoubleNumber[3][0] //
-console.log('getFirstElementOfIndexOneArray ==>', getFirstElementOfIndexOneArray)
+let getFirstElementOfIndexOneArray = favoriteDoubleNumber[0][0]; //
+let getSecondElementOfIndexTwoArray = favoriteDoubleNumber[1][1]; //
+let getFirstElementOfIndexThreeArray = favoriteDoubleNumber[2][0]; //
+let getSecondElementOfIndexFourArray = favoriteDoubleNumber[3][0]; //
+console.log(
+  "getFirstElementOfIndexOneArray ==>",
+  getFirstElementOfIndexOneArray
+);
 console.log(
   "getSecondElementOfIndexTwoArray ==>",
   getSecondElementOfIndexTwoArray
