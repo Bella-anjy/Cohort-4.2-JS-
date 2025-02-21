@@ -103,6 +103,28 @@ const divide = (a, b) => {
   return a / b;
 }
 
+const myBioData = {
+  name: "John Doe",
+  age: 25,
+  location: "Lagos",
+  favoriteFood: "Amala",
+  favoritePlace: "Lagos",
+  favoriteColor: "Red",
+  isAdmitted: true,
+  matricNumber: "UZ/2019/12345",
+  hobbies: ["Reading", "Swimming", "Coding"],
+  address: {
+    street: "No 1, Lagos Street",
+    city: "Lagos",
+    state: "Lagos",
+    country: "Nigeria",
+  },
+  courseLevel: "masters",
+  course: "Computer Science",
+  school: "University of Lagos",
+  department: "Computer Science",
+  level: 500,
+}
 module.exports = {
   favoriteFood,
   favoritePlace,
@@ -113,4 +135,5 @@ module.exports = {
   subtract,
   multiply,
   divide,
+  myBioData,
 };
