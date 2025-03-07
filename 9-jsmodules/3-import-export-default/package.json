@@ -1,0 +1,24 @@
+{
+  "name": "3-import-export-default",
+  "version": "1.0.0",
+  "description": "Learning how to use import, export default and export keyword to import js modules",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch app.js",
+    "start-1": "node --watch 1-default-export/app.js",
+    "start-2": "node --watch 2-named-export/app.js"
+
+  },
+  "keywords": [
+    "Nodejs",
+    "Javascript",
+    "JS",
+    "Modules",
+    "Import",
+    "Export",
+    "Default"
+  ],
+  "author": "Aliyah Olubiyo",
+  "license": "ISC"
+}
