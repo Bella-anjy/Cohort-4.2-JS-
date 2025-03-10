@@ -8,7 +8,7 @@
 
 function greet() {
   setTimeout(() => {
-    console.log('Hello World');
+    console.log("Hello World");
   }, 5000);
 }
 console.log(greet());
@@ -24,7 +24,7 @@ console.log(greet());
 // Illustration
 let promise = new Promise((resolve, reject) => {
   setTimeout(() => {
-    resolve('Hello');
+    resolve("Hello");
   }, 5000);
 });
 
@@ -49,16 +49,17 @@ const fetchUsers = async () => {
     const data = await response.json();
     // console.log(response)
     // console.log('Data ==>', data)
-    data.forEach(user => {
+    data.forEach((user) => {
       console.log(user.name);
     });
   } catch (error) {
-    console.error("Error Fetching data",error.message);
+    console.error("Error Fetching data", error.message);
   }
-}
-fetchUsers()
+};
+fetchUsers();
 
 // Using Fetch API
+// API (APPLICATION PROGRAMMING INTERFACE), URL(UNIVERSAL RESOURCES LOCATOR), JSON(JAVASCRIPT OPERATOR NOTATION)
 // Classwork
 // Fetch the data from the fakestoreapi.com/products and display the product name and price in the console.
 
@@ -68,15 +69,14 @@ const fetchProducts = async () => {
   try {
     const response = await fetch(productsUrl);
     const data = await response.json();
-    data.forEach(product => {
-      console.log({    
+    data.forEach((product) => {
+      console.log({
         productName: product.title,
-    productPrice: product.price 
-      }
-      )
+        productPrice: product.price,
+      });
     });
   } catch (error) {
-    console.error("Error Fetching data",error.message);
+    console.error("Error Fetching data", error.message);
   }
-}
-fetchProducts()
+};
+fetchProducts();
